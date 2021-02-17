@@ -8,8 +8,10 @@ import static com.codeborne.selenide.Selenide.*;
 public class SearchTest {
 
     @Test
+    @DisplayName("New test")
+    @Tag("web")
     void selenideSearchTest() {
-        // Открыть googlea
+        // Открыть google
         open("https://www.google.com/");
 
         // Ввести Selenide в поиск
